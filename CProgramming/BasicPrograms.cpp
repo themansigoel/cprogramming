@@ -40,6 +40,7 @@ printf("sum of two nos is %d",sum);
         fact=fact*i;
     }
     printf("factorial of nos is %d",fact);
+    
     return 0;
 }
 
