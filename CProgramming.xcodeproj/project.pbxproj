@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		131C93A920729E9100906C52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93A820729E9100906C52 /* main.cpp */; };
-		131C93B12073A67700906C52 /* pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93AF2073A67700906C52 /* pattern.cpp */; };
-		131C93B42074880C00906C52 /* BasicPrograms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93B22074880C00906C52 /* BasicPrograms.cpp */; };
-		131C93B82074FFFB00906C52 /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93B62074FFFB00906C52 /* array.cpp */; };
+		131C93C3207A5EF800906C52 /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93BA207A5EF800906C52 /* array.cpp */; };
+		131C93C4207A5EF800906C52 /* BasicPrograms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93BD207A5EF800906C52 /* BasicPrograms.cpp */; };
+		131C93C5207A5EF800906C52 /* pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93C0207A5EF800906C52 /* pattern.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,13 +28,13 @@
 /* Begin PBXFileReference section */
 		131C93A520729E9100906C52 /* CProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		131C93A820729E9100906C52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		131C93AF2073A67700906C52 /* pattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pattern.cpp; sourceTree = SOURCE_ROOT; };
-		131C93B02073A67700906C52 /* pattern.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pattern.hpp; sourceTree = SOURCE_ROOT; };
-		131C93B22074880C00906C52 /* BasicPrograms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicPrograms.cpp; sourceTree = "<group>"; };
-		131C93B32074880C00906C52 /* BasicPrograms.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BasicPrograms.hpp; sourceTree = "<group>"; };
 		131C93B52074884C00906C52 /* FilesIncluded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilesIncluded.h; sourceTree = "<group>"; };
-		131C93B62074FFFB00906C52 /* array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = array.cpp; sourceTree = "<group>"; };
-		131C93B72074FFFB00906C52 /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
+		131C93BA207A5EF800906C52 /* array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = array.cpp; sourceTree = "<group>"; };
+		131C93BB207A5EF800906C52 /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
+		131C93BD207A5EF800906C52 /* BasicPrograms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicPrograms.cpp; sourceTree = "<group>"; };
+		131C93BE207A5EF800906C52 /* BasicPrograms.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BasicPrograms.hpp; sourceTree = "<group>"; };
+		131C93C0207A5EF800906C52 /* pattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pattern.cpp; sourceTree = "<group>"; };
+		131C93C1207A5EF800906C52 /* pattern.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pattern.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,16 +67,48 @@
 		131C93A720729E9100906C52 /* CProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				131C93B9207A5EF800906C52 /* Array */,
+				131C93BC207A5EF800906C52 /* Basics */,
+				131C93BF207A5EF800906C52 /* Patterns */,
+				131C93C2207A5EF800906C52 /* Strings */,
 				131C93A820729E9100906C52 /* main.cpp */,
-				131C93AF2073A67700906C52 /* pattern.cpp */,
-				131C93B02073A67700906C52 /* pattern.hpp */,
-				131C93B22074880C00906C52 /* BasicPrograms.cpp */,
-				131C93B32074880C00906C52 /* BasicPrograms.hpp */,
-				131C93B62074FFFB00906C52 /* array.cpp */,
-				131C93B72074FFFB00906C52 /* array.hpp */,
 				131C93B52074884C00906C52 /* FilesIncluded.h */,
 			);
 			path = CProgramming;
+			sourceTree = "<group>";
+		};
+		131C93B9207A5EF800906C52 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				131C93BA207A5EF800906C52 /* array.cpp */,
+				131C93BB207A5EF800906C52 /* array.hpp */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		131C93BC207A5EF800906C52 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				131C93BD207A5EF800906C52 /* BasicPrograms.cpp */,
+				131C93BE207A5EF800906C52 /* BasicPrograms.hpp */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		131C93BF207A5EF800906C52 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				131C93C0207A5EF800906C52 /* pattern.cpp */,
+				131C93C1207A5EF800906C52 /* pattern.hpp */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		131C93C2207A5EF800906C52 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,10 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131C93B12073A67700906C52 /* pattern.cpp in Sources */,
-				131C93B82074FFFB00906C52 /* array.cpp in Sources */,
 				131C93A920729E9100906C52 /* main.cpp in Sources */,
-				131C93B42074880C00906C52 /* BasicPrograms.cpp in Sources */,
+				131C93C3207A5EF800906C52 /* array.cpp in Sources */,
+				131C93C5207A5EF800906C52 /* pattern.cpp in Sources */,
+				131C93C4207A5EF800906C52 /* BasicPrograms.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
