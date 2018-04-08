@@ -7,41 +7,26 @@
 //
 
 #include "BasicPrograms.hpp"
-int hello()
+
+void hello()
 {
     printf("hello my love ");
-    return 0;
-}
-int sumOfGivenNo()
-{
-    int a=10,b=20,sum;
-    sum=a+b;
-    printf("sum of no is %d",sum);
-    return 0;
 }
 
- int sumByUser()
+
+int sumOfGivenNo(int a, int b)
 {
-int a,b,sum;
-printf("enter the no. a & b");
-scanf("%d %d ",&a,&b);
-sum=a+b;
-printf("sum of two nos is %d",sum);
-    return 0;
+    return a+b;
 }
 
- int factorial()
+int factorial(int number)
 {
-    int i,n,fact=1;
-    printf("enter a no.");
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
+    int i,fact=1;
+    for(i=0;i<number;i++)
     {
         fact=fact*i;
-    }
-    printf("factorial of nos is %d",fact);
-    
-    return 0;
+    }    
+    return fact;
 }
 
 int fibonacci()
@@ -103,5 +88,5 @@ int prime()
     int n;
     printf("enter the no.");
     scanf("%d",&n);
-    
+    return 0;
 }

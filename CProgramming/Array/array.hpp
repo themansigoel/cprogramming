@@ -10,8 +10,14 @@
 #define array_hpp
 
 #include <stdio.h>
+
+//1. Program to return sum of given n numbers
 int arraySum();
+
+
 int maxElement();
+
+
 int sortArray();
 
 #endif /* array_hpp */
