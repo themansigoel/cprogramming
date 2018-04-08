@@ -47,6 +47,7 @@ printf("sum of two nos is %d",sum);
 int fibonacci()
 {
     int n1=0,n2=1,n3,i,n;
+    
     printf("enter the no.");
     scanf("%d",&n);
     printf("fibonacci series is%d %d",n1,n2);
