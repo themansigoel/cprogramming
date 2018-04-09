@@ -8,13 +8,53 @@
 #include <stdio.h>
 
 //1. Program to print pattern with input n
+/*  
+     * * * *
+       * * *
+         * * 
+           *
+ */
+void patternPrint1();
 
-int patternPrint1();
-int patternPrint2();
-int patternPrint3();
-int patternPrint4();
-int patternPrint5();
+//2. Program to print the pattern with input n
+/*
+    * * * *
+    * * * *
+    * * * *
+    * * * *
+ */
+void patternPrint2();
 
-//2.
+//3. Program to print the pattern with input n
+/*
+    *
+    * *
+    * * *
+    * * * *
+ */
+void patternPrint3();
+
+//4. Program to print the pattern with input n
+/*
+    * * * *
+    * * *
+    * *
+    *
+ */
+void patternPrint4();
+
+//5. Program to print the pattern with input n
+/*
+   *
+   * *
+   * * *
+   * * * *
+   * * *
+   * * 
+   *
+ */
+void patternPrint5();
+
+
 
 

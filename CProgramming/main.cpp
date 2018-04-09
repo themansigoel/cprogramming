@@ -12,6 +12,5 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    printf("%d",sumOfGivenNo(2,4));
     return 0;
 }

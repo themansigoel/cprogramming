@@ -22,19 +22,16 @@ int sumOfGivenNo(int a, int b)
 int factorial(int number)
 {
     int i,fact=1;
-    for(i=0;i<number;i++)
+    for(i=1;i<=number;i++)
     {
         fact=fact*i;
     }    
     return fact;
 }
 
-int fibonacci()
+int fibonacci(int n)
 {
-    int n1=0,n2=1,n3,i,n;
-    
-    printf("enter the no.");
-    scanf("%d",&n);
+    int n1=0,n2=1,n3,i;
     printf("fibonacci series is%d %d",n1,n2);
     for(i=2;i<n-1;i++)
     {
@@ -47,11 +44,9 @@ int fibonacci()
     return 0;
 }
 
-int evenOdd()
+void evenOdd(int n)
 {
-    int n;
-    printf("enter the no.");
-    scanf("%d",&n);
+    
     if(n%2==0)
     {
         printf("no. is even");
@@ -59,14 +54,11 @@ int evenOdd()
     else{
         printf("no. is odd");
     }
-    return 0;
 }
 
-int hcfLcm()
+int hcf(int x,int y)
 {
-    int a,b,t,lcm,gcd,x,y;
-    printf("enter the no's");
-    scanf("%d %d",&x,&y);
+    int a,b,t;
     a=x;
     b=y;
     while (b!=0)
@@ -76,17 +68,26 @@ int hcfLcm()
         a=t;
         
     }
-    gcd=a;
-    lcm=(x*y)/gcd;
-    printf("HCF of two given no is %d",gcd);
-    printf("LCM of two given no is %d",lcm);
-    return 0;
+    return a;
 }
 
-int prime()
+int lcm(int x,int y)
 {
-    int n;
-    printf("enter the no.");
-    scanf("%d",&n);
-    return 0;
+    int a,b,t,lcm;
+    a=x;
+    b=y;
+    while (b!=0)
+    {
+        t=b;
+        b=a%b;
+        a=t;
+        
+    }
+ lcm=(x*y)/a;
+    return lcm;
+}
+
+int prime(int n)
+{
+    return 
 }

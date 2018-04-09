@@ -9,7 +9,7 @@
 #include "pattern.hpp"
 #include<stdio.h>
 
-int patternPrint1()
+void patternPrint1()
 {
     int i,j,n;
     printf("enter the no.");
@@ -24,15 +24,14 @@ int patternPrint1()
             }
             else {
                 
-                printf("*");
+                printf("* ");
             }
     
         }
         printf("\n");
     }
-    return 0;
 }
- int patternPrint2()
+ void  patternPrint2()
 {
     int i,j,n;
     printf("enter no.");
@@ -41,14 +40,13 @@ int patternPrint1()
     {
         for(j=0;j<n;j++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
-    return 0;
 }
 
-int patternPrint3()
+void  patternPrint3()
 {
     int i,j,n;
     printf("enter no.");
@@ -57,14 +55,13 @@ int patternPrint3()
     {
         for(j=0;j<=i;j++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
-    return 0;
 }
 
-int patternPrint4()
+void patternPrint4()
 {
     int i,j,n;
     printf("enter no.");
@@ -73,15 +70,14 @@ int patternPrint4()
     {
         for(j=n;j>i;j--)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
-    return 0;
 }
 
 
-int patternPrint5()
+void patternPrint5()
 {
     int i,j,n;
     printf("enter no.");
@@ -90,7 +86,7 @@ int patternPrint5()
     {
         for(j=0;j<i;j++)
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
@@ -98,12 +94,11 @@ int patternPrint5()
         {
             for(j=n;j>i;j--)
             {
-                printf("*");
+                printf("* ");
             }
         printf("\n");
     }
-    return 0;
-    }
+}
 
 
 
