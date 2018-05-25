@@ -11,6 +11,7 @@
 		131C93C3207A5EF800906C52 /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93BA207A5EF800906C52 /* array.cpp */; };
 		131C93C4207A5EF800906C52 /* BasicPrograms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93BD207A5EF800906C52 /* BasicPrograms.cpp */; };
 		131C93C5207A5EF800906C52 /* pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93C0207A5EF800906C52 /* pattern.cpp */; };
+		1328664220B7D95E00947A0E /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664120B7D95E00947A0E /* string.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		131C93BE207A5EF800906C52 /* BasicPrograms.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BasicPrograms.hpp; sourceTree = "<group>"; };
 		131C93C0207A5EF800906C52 /* pattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pattern.cpp; sourceTree = "<group>"; };
 		131C93C1207A5EF800906C52 /* pattern.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pattern.hpp; sourceTree = "<group>"; };
+		1328664020B7D94400947A0E /* string.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = string.hpp; sourceTree = "<group>"; };
+		1328664120B7D95E00947A0E /* string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		131C93C2207A5EF800906C52 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				1328664020B7D94400947A0E /* string.hpp */,
+				1328664120B7D95E00947A0E /* string.cpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				131C93A920729E9100906C52 /* main.cpp in Sources */,
 				131C93C3207A5EF800906C52 /* array.cpp in Sources */,
 				131C93C5207A5EF800906C52 /* pattern.cpp in Sources */,
+				1328664220B7D95E00947A0E /* string.cpp in Sources */,
 				131C93C4207A5EF800906C52 /* BasicPrograms.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +303,7 @@
 				131C93AE20729E9100906C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

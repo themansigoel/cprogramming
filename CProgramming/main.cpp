@@ -2,7 +2,7 @@
 //  main.cpp
 //  CProgramming
 //
-//  Created by RAHUL GOEL on 02/04/18.
+//  Created by Mansi Goel on 02/04/18.
 //
 //
 

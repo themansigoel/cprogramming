@@ -2,7 +2,7 @@
 //  BasicPrograms.hpp
 //  CProgramming
 //
-//  Created by RAHUL GOEL on 04/04/18.
+//  Created by Mansi Goel on 04/04/18.
 //
 //
 

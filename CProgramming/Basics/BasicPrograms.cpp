@@ -2,7 +2,7 @@
 //  BasicPrograms.cpp
 //  CProgramming
 //
-//  Created by RAHUL GOEL on 04/04/18.
+//  Created by Mansi Goel on 04/04/18.
 //
 //
 
@@ -89,5 +89,5 @@ int lcm(int x,int y)
 
 int prime(int n)
 {
-    return 
+    return 1;
 }

@@ -2,7 +2,7 @@
 //  pattern.h
 //  CProgramming
 //
-//  Created by RAHUL GOEL on 03/04/18.
+//  Created by Mansi Goel on 03/04/18.
 //
 //
 #include <stdio.h>
