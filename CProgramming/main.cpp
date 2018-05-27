@@ -13,8 +13,7 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    struct node *i = linklist();
-    int c=countNoOfNodes(i);
-    printf("%d",c);
+    struct list_double_node *i = doubleLinkedList();
+    printDoubleLinkedList(i);
     return 0;
 }

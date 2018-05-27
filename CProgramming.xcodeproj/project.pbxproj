@@ -13,6 +13,7 @@
 		131C93C5207A5EF800906C52 /* pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131C93C0207A5EF800906C52 /* pattern.cpp */; };
 		1328664220B7D95E00947A0E /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664120B7D95E00947A0E /* string.cpp */; };
 		1328664620B7DA3D00947A0E /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664420B7DA3D00947A0E /* LinkedList.cpp */; };
+		1328664B20BABF8E00947A0E /* DoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664920BABF8E00947A0E /* DoubleLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		1328664120B7D95E00947A0E /* string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
 		1328664420B7DA3D00947A0E /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
 		1328664520B7DA3D00947A0E /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		1328664920BABF8E00947A0E /* DoubleLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleLinkedList.cpp; sourceTree = "<group>"; };
+		1328664A20BABF8E00947A0E /* DoubleLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoubleLinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 			children = (
 				1328664420B7DA3D00947A0E /* LinkedList.cpp */,
 				1328664520B7DA3D00947A0E /* LinkedList.hpp */,
+				1328664920BABF8E00947A0E /* DoubleLinkedList.cpp */,
+				1328664A20BABF8E00947A0E /* DoubleLinkedList.hpp */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				131C93C5207A5EF800906C52 /* pattern.cpp in Sources */,
 				1328664220B7D95E00947A0E /* string.cpp in Sources */,
 				1328664620B7DA3D00947A0E /* LinkedList.cpp in Sources */,
+				1328664B20BABF8E00947A0E /* DoubleLinkedList.cpp in Sources */,
 				131C93C4207A5EF800906C52 /* BasicPrograms.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

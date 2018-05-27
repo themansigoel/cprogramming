@@ -10,3 +10,4 @@
 #include "BasicPrograms.hpp"
 #include "array.hpp"
 #include "linkedlist.hpp"
+#include "DoubleLinkedList.hpp"
