@@ -6,9 +6,16 @@
 //
 //
 
-#ifndef LinkedList_hpp
-#define LinkedList_hpp
-
 #include <stdio.h>
+#include <stdlib.h>
 
-#endif /* LinkedList_hpp */
+struct node{
+    int info;
+    struct node *next;
+};
+
+//Method to print given linked list based on the given base address
+void printList(struct node *n);
+
+//To create a link list for test purpose with 5 elements and returns the base address
+struct node* linklist();

@@ -73,6 +73,8 @@
 		131C93A720729E9100906C52 /* CProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				1328664820BAB6E500947A0E /* Functions */,
+				1328664720BAB69400947A0E /* Struct_Union_Enum */,
 				1328664320B7DA3000947A0E /* LinkedList */,
 				131C93B9207A5EF800906C52 /* Array */,
 				131C93BC207A5EF800906C52 /* Basics */,
@@ -127,6 +129,20 @@
 				1328664520B7DA3D00947A0E /* LinkedList.hpp */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		1328664720BAB69400947A0E /* Struct_Union_Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Struct_Union_Enum;
+			sourceTree = "<group>";
+		};
+		1328664820BAB6E500947A0E /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
