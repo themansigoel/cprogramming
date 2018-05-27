@@ -14,5 +14,7 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     struct node *i = linklist();
+    int c=countNoOfNodes(i);
+    printf("%d",c);
     return 0;
 }

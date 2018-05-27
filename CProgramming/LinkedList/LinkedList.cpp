@@ -51,3 +51,20 @@ struct node * newNode(int val){
     return d;
 }
 
+
+int countNoOfNodes(struct node* baseAddress){
+    int count=0;
+    while (baseAddress!=NULL) {
+        count=count+1;
+        baseAddress = baseAddress->next;
+    
+    }
+    
+
+    return count;
+}
+
+
+
+
+

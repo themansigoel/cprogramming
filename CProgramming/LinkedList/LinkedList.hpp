@@ -19,3 +19,7 @@ void printList(struct node *n);
 
 //To create a link list for test purpose with 5 elements and returns the base address
 struct node* linklist();
+
+
+//Method to count number of nodes in given linked list
+int countNoOfNodes(struct node* baseAddress);
