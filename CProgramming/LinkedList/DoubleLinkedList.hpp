@@ -2,7 +2,7 @@
 //  DoubleLinkedList.hpp
 //  CProgramming
 //
-//  Created by RAHUL GOEL on 27/05/18.
+//  Created by Mansi Goel on 27/05/18.
 //
 
 
