@@ -14,6 +14,7 @@
 		1328664220B7D95E00947A0E /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664120B7D95E00947A0E /* string.cpp */; };
 		1328664620B7DA3D00947A0E /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664420B7DA3D00947A0E /* LinkedList.cpp */; };
 		1328664B20BABF8E00947A0E /* DoubleLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664920BABF8E00947A0E /* DoubleLinkedList.cpp */; };
+		1328664F20BBCAA600947A0E /* recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1328664D20BBCAA600947A0E /* recursion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,8 @@
 		1328664520B7DA3D00947A0E /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		1328664920BABF8E00947A0E /* DoubleLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleLinkedList.cpp; sourceTree = "<group>"; };
 		1328664A20BABF8E00947A0E /* DoubleLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DoubleLinkedList.hpp; sourceTree = "<group>"; };
+		1328664D20BBCAA600947A0E /* recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
+		1328664E20BBCAA600947A0E /* recursion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = recursion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		131C93A720729E9100906C52 /* CProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				1328664C20BAD0F900947A0E /* Recursion */,
 				1328664820BAB6E500947A0E /* Functions */,
 				1328664720BAB69400947A0E /* Struct_Union_Enum */,
 				1328664320B7DA3000947A0E /* LinkedList */,
@@ -150,6 +154,15 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		1328664C20BAD0F900947A0E /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				1328664D20BBCAA600947A0E /* recursion.cpp */,
+				1328664E20BBCAA600947A0E /* recursion.hpp */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1328664F20BBCAA600947A0E /* recursion.cpp in Sources */,
 				131C93A920729E9100906C52 /* main.cpp in Sources */,
 				131C93C3207A5EF800906C52 /* array.cpp in Sources */,
 				131C93C5207A5EF800906C52 /* pattern.cpp in Sources */,
