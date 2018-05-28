@@ -22,6 +22,8 @@ int main(int argc, const char * argv[]) {
         scanf("%d",&arr[i]);
     
     }
-    printf("%d",recursive_func(arr,5));
+    printf("%d",sumOfNo(arr,5));
+    /*printf("%d",hcf(9,2));
+   printPrimeNo(5);*/
     return 0;
 }

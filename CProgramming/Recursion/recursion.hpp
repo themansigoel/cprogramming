@@ -11,7 +11,7 @@
 #include<stdlib.h>
 
 // program to find the sum of numbers from given array of size n
-int recursive_func(int *arr,int size);
+int sumOfNo(int *arr,int size);
 
 
 

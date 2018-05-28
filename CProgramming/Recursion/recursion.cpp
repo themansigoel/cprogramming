@@ -9,12 +9,12 @@
 #include "recursion.hpp"
 
 
-int recursive_func(int *arr,int size)
+int sumOfNo(int *arr,int size)
 {
     if(size<=0)
     {
         return arr[size];
     }
     else
-        return arr[size]+recursive_func(arr,size-1);
+        return arr[size]+sumOfNo(arr,size-1);
 }

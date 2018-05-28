@@ -32,3 +32,6 @@ int lcm(int x,int y);
 
 //8. Program to check the given number is prime or not
 int prime(int n);
+
+//9. Program to print all prime no.'s upto given no. n
+int printPrimeNo(int n);
