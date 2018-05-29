@@ -13,17 +13,6 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-   /* struct list_double_node *i = doubleLinkedList();
-    printDoubleLinkedList(i);*/
-    int arr[100],size,i;
-    scanf("%d",&size);
-    for(i=0;i<size;i++)
-    {
-        scanf("%d",&arr[i]);
-    
-    }
-    printf("%d",sumOfNo(arr,5));
-    /*printf("%d",hcf(9,2));
-   printPrimeNo(5);*/
+    printPrimeNo(10);
     return 0;
 }
