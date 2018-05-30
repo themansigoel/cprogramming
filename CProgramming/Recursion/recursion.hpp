@@ -18,3 +18,12 @@ int recusrion_sumOfNaturalNo(int upto);
 
 // 3. Program to count number of characters in given string.
 int recursion_countNoOfChar(char *str);
+
+// 4. Program to reverse the given string
+void recursion_revString(char *str);
+
+// 5. Program to find the power of given number n
+int recursion_powerOfNo(int no,int pow);
+
+// 6. Program to find the factorial of given number
+int recursion_factorial(int no);

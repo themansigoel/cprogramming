@@ -13,6 +13,9 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    printPrimeNo(10);
+   /* char str[20];
+    scanf("%s",str);
+    recursion_revString(str);*/
+    printf("%d",recursion_factorial(3));
     return 0;
 }

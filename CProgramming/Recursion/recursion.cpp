@@ -42,4 +42,42 @@ int recursion_countNoOfChar(char *str)
         return 1+recursion_countNoOfChar(str+1);
     }
 }
+void recursion_revString(char *str)
+{
+    if(*str == '\0')
+    {
+        return ;
+        
+    }
+    else{
+        return recursion_revString(str+1);
+         printf("%s",*str);
+    }
+}
+
+int recursion_powerOfNo(int no,int pow)
+{
+   if(pow==0)
+   {
+       return 1;
+   }
+   else{
+       return no*recursion_powerOfNo(no, pow-1);
+   }
+}
+
+int recursion_factorial(int no)
+{
+  if(no==1)
+  {
+      return 1;
+  }
+  else{
+      return no*recursion_factorial(no-1);
+  }
+}
+
+
+
+
 
