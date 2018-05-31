@@ -27,3 +27,9 @@ int recursion_powerOfNo(int no,int pow);
 
 // 6. Program to find the factorial of given number
 int recursion_factorial(int no);
+
+// 7. Program to return the word from given sentence
+void recursion_returnWords(char *str);
+
+// 8. Program to print the nth term from fibonacci series
+int recursion_fibonacci(int n);

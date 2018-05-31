@@ -7,7 +7,8 @@
 //
 
 #include "recursion.hpp"
-
+#include <stdlib.h>
+#include <stdio.h>
 
 int recursion_sumOfNo(int *arr,int size)
 {
@@ -46,13 +47,14 @@ void recursion_revString(char *str)
 {
     if(*str == '\0')
     {
-        return ;
+        return;
         
     }
     else{
-        return recursion_revString(str+1);
-         printf("%s",*str);
+        recursion_revString(str+1);
+        printf("%c",*str);
     }
+  
 }
 
 int recursion_powerOfNo(int no,int pow)
@@ -76,7 +78,31 @@ int recursion_factorial(int no)
       return no*recursion_factorial(no-1);
   }
 }
+void recursion_returnWords(char *str)
+{
+    if(*str == '\0')
+    {
+        return ;
+    }
+    else{
+        printf("%c \n",*str);
+        return recursion_returnWords(str+1);
+    }
+}
 
+int recursion_fibonacci(int n)
+{
+    if(n == 1)
+       {
+           return 1;
+       }
+    if(n == 0){
+        return 0;
+    }
+    else{
+        return  recursion_fibonacci(n-1)+recursion_fibonacci(n-2);
+    }
+}
 
 
 
