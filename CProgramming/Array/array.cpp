@@ -106,4 +106,24 @@ int sortArray()
     return 0;
 }
 
+void arraySeggregation(int a[])
+{
+    int i,j,count=0,n;
+    
+    for(i=0;i<n;i++)
+    {
+        if(a[i]==0)
+        {
+            printf("%d",a[i]);
+        }
+        else{
+            count=count+1;
+        }
+    }
+    for(j=1;j<count;j++){
+        printf("1");
+        
+    }
+}
+
 

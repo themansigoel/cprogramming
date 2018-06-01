@@ -22,5 +22,5 @@ int minElement();
 // 5. Program to sort the given array in ascending order.
 int sortArray();
 
-
-
+// 6. Program to seggregate all 0's on left and all 1's at right in o(n) time
+void arraySeggregation(int a[]);
